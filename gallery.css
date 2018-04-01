@@ -1,0 +1,53 @@
+body {
+	padding-top: 70px;
+	background: #0099F7;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #F11712, #0099F7);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #F11712, #0099F7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/*.thumbnail {
+    width: 335px;
+    height: 190.59px;
+    display: inline-block; /* makes it fit in like an <img> */
+    /*background-size: cover; /* or contain */
+    /*background-position: center center;*/
+    /*background-repeat: no-repeat;*/
+/*}*/
+.row .flex {
+    display: inline-flex;
+    width: 100%;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/*.thumbnail {
+	height: 275px;
+	display: table;
+}
+*/
+
+.thumbnail img{
+	height: 100%;
+	width: 100%;
+}
+
+.jumbotron {
+	color: #2c3e50;
+	background: #ecf0f1;
+	text-align: center;
+}
+
+.navbar-inverse {
+	background: #2c3e50;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+	color: white;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}
